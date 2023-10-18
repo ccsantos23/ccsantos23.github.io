@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ 'assets/css/styles.css' | relative_url }}">
+
+    {%- seo -%}
+    {%- feed_meta -%}
+
+    {%- include custom-head.html -%}
+  </head>
+
+  <body>
+
+    <div class="container">
+      {%- assign cover_bg_color = site.cover_bg_color | default: "rgb(40, 73, 77)" -%}
+      {%- assign cover_color    = site.cover_color    | default: "rgb(255, 255, 255)" -%}
+      {%- assign cover_image    = site.cover_image -%}
+      {%- if page.cover_bg_color -%}
+        {%- assign cover_bg_color  = page.cover_bg_color -%}
+      {%- endif -%}
+      {%- if page.cover_color -%}
+        {%- assign cover_color     = page.cover_color -%}
+      {%- endif -%}
+      {%- if page.cover_image -%}
+        {%- assign cover_image     = page.cover_image -%}
+      {%- endif -%}
+      <div class="sidebar-left" style="background-color: {{ cover_bg_color }}; color: {{ cover_color}}; {% if cover_image %}background-image: url({{ cover_image | relative_url }});{% endif %}">
+        {%- include sidebar-left.html -%}
+      </div>
+
+      <div class="content">
+        {%- include content.html -%}
+      </div>
+      <div class="sidebar-right">
+        {%- include sidebar-right.html -%}
+      </div>
+    </div>
+
+    <script async src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+
+    {%- include scroll.html -%}
+
+    {%- if page.math -%}
+      {% include mathjax.html %}
+    {%- endif -%}
+
+    {%- if site.google_analytics -%}
+      {%- include google-analytics.html -%}
+    {%- endif -%}
+  </body>
+</html>

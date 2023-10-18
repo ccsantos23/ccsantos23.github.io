@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/styles.css"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Blog Tweaks | Lint Bucket</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Blog Tweaks" />
+<meta name="author" content="C. Santos" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Removing pure.css and getting sourcemapping back." />
+<meta property="og:description" content="Removing pure.css and getting sourcemapping back." />
+<link rel="canonical" href="http://localhost:4000/2023/10/05/blog-tweaks/" />
+<meta property="og:url" content="http://localhost:4000/2023/10/05/blog-tweaks/" />
+<meta property="og:site_name" content="Lint Bucket" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-10-05T03:44:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Blog Tweaks" />
+<meta name="google-site-verification" content="xxxxx" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"C. Santos","url":"https://github.com/ccsantos23"},"dateModified":"2023-10-05T03:44:00-05:00","datePublished":"2023-10-05T03:44:00-05:00","description":"Removing pure.css and getting sourcemapping back.","headline":"Blog Tweaks","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2023/10/05/blog-tweaks/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/logo.png"},"name":"C. Santos"},"url":"http://localhost:4000/2023/10/05/blog-tweaks/"}</script>
+<!-- End Jekyll SEO tag -->
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Lint Bucket" />
+</head>
+
+  <body>
+
+    <div class="container"><div class="sidebar-left" style="background-color: rgb(40, 73, 77); color: rgb(255, 255, 255); background-image: url(/assets/images/desk-things.png);"><header class="masthead">
+  
+  <div class="masthead-title">
+    <a href="/" title="Home">Lint Bucket</a>
+  </div>
+  <div class="masthead-tagline">
+    <small>Randomly finding and tinkering.</small>
+  </div><nav class="navigation">
+    <ul class="navigation-list"><li class="navigation-item">
+        <a onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="/">Blog</a>
+      </li><li class="navigation-item">
+        <a onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="/about/">About</a>
+      </li></ul>
+  </nav><div class="social">
+      <ul class="social-icons">
+      <li>
+          <a class="social-icon" href="https://www.linkedin.com/in/carmela-santos-6329294/">
+            <i class="fab fa-linkedin" title="LinkedIn"></i>
+          </a>
+        </li><li>
+          <a class="social-icon" href="https://github.com/ccsantos23">
+            <i class="fab fa-github" title="GitHub"></i>
+          </a>
+        </li><li>
+          <a class="social-icon" href="https://universeodon.com/@carmelasantos">
+            <i class="fab fa-mastodon" title="Mastodon"></i>
+          </a>
+        </li>
+        <li>
+          <a class="social-icon" href="http://localhost:4000/feed.xml">
+            <i class="fa fa-rss" title="RSS feed"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+</header>
+</div>
+
+      <div class="content"><main>
+  <article class="post">
+  <h1 class="post-title">Blog Tweaks</h1>
+  <div class="post-meta"><time datetime="2023-10-05T03:44:00-05:00" itemprop="datePublished">5 Oct 2023</time></div>
+
+  <p>Removing <code class="language-plaintext highlighter-rouge">pure.css</code> and getting sourcemapping back.</p>
+
+<p>Realized that the version of <code class="language-plaintext highlighter-rouge">jekyll</code> that the <code class="language-plaintext highlighter-rouge">github-pages</code> gem was using
+was messing up sourcemapping even before <code class="language-plaintext highlighter-rouge">autoprefixer</code>.  That and the loss
+of <code class="language-plaintext highlighter-rouge">livereload</code> made me switch out of <code class="language-plaintext highlighter-rouge">github-pages</code> and just went back to
+my original config and Gemfile that had the latest versions.</p>
+
+<p>When I looked at the HTML of the site, it had all these “pure-*” classes on
+the markup.  And realized that was <code class="language-plaintext highlighter-rouge">pure.css</code>, a CSS framework.  It reminded
+me too much of Tailwind, which I didn’t really like from first time I saw it
+(see Jeff Sandberg’s <a href="https://pdx.su/blog/2023-07-26-tailwind-and-the-death-of-craftsmanship/">Tailwind, and the death of web craftsmanship</a>
+for a lot of reasons).  Also saw <a href="https://medium.com/codex/pure-css-more-like-pure-junk-1ec2d26a1122">this article</a>
+while I was researching <code class="language-plaintext highlighter-rouge">pure.css</code> (sadly requiring a login to read the whole thing).
+So I ripped-out pure from the HTML and the SASS.  Turned out it was hardly used,
+and it was easy enough to drop in the necessary styles to take its place.</p>
+
+<p>For a while I contemplated switching to a simpler theme, like <a href="https://jekyllthemes.io/theme/contrast">contrast</a>.
+But I’d have to put in features like tags, and taxonomy index pages.</p>
+
+<p>About <code class="language-plaintext highlighter-rouge">autoprefixer</code>–that was still messing up the sourcemapping.  I decided to
+take it off the <code class="language-plaintext highlighter-rouge">jekyll</code> workflow and just use an <a href="https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-autoprefixer">autoprefixer extension for VSCode</a>,
+with the <code class="language-plaintext highlighter-rouge">formatOnSave</code> option turned on.  And did a
+save on all the *.scss files.  I just have to remember to delete the related prefixed
+lines if I needed to change something that got prefixed, so they’d get
+regenerated on save.</p>
+
+<p>Also tweaked some styles.</p>
+
+<p>My “built a jekyll website in just a few hours” isn’t accurate anymore.
+Needed a few more days to have one I’m happier with as far as rendered
+output and development environment.</p>
+
+<p>And thank goodness for <a href="https://git-scm.com/">git</a>.
+And <a href="https://gitextensions.github.io/">Git Extensions</a>.</p>
+
+
+  
+    
+      <div class="post-tags-section">
+  <i title="tags" class="post-tags-icon fas fa-tags"></i>
+  <ul class="post-tags"><li>
+        <a class="post-tag" href="/tags/#jekyll">jekyll</a></li><li>
+        <a class="post-tag" href="/tags/#autoprefixer">autoprefixer</a></li><li>
+        <a class="post-tag" href="/tags/#css">css</a></li><li>
+        <a class="post-tag" href="/tags/#vscode">vscode</a></li></ul>
+</div>
+
+  
+
+  
+    <div id="disqus_thread" class="post-comments"></div>
+<script>
+  var disqus_config = function () {
+    this.page.url = 'http://localhost:4000/2023/10/05/blog-tweaks/';
+    this.page.identifier = 'http://localhost:4000/2023/10/05/blog-tweaks/';
+  };
+
+  (function() {
+    var d = document, s = d.createElement('script');
+
+    s.src = 'https://lint-bucket.disqus.com/embed.js';
+
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+  
+</article>
+
+
+<aside class="related">
+  <h2>Related posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <a href="/2023/10/16/interested-in-11ty/">
+          Interested in 11ty
+          <small><time datetime="2023-10-16T20:08:00-05:00">16 Oct 2023</time></small>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/2023/10/09/milanote/">
+          Milanote
+          <small><time datetime="2023-10-09T15:19:00-05:00">09 Oct 2023</time></small>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/2023/10/09/levelup-tutorials/">
+          Level Up Tutorials
+          <small><time datetime="2023-10-09T14:22:00-05:00">09 Oct 2023</time></small>
+        </a>
+      </li>
+    
+  </ul>
+</aside>
+
+
+</main></div>
+      <div class="sidebar-right">
+</div>
+    </div>
+
+    <script async src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script><script>
+  function strip(str, remove) {
+    while (str.length > 0 && remove.indexOf(str.charAt(0)) != -1) {
+      str = str.substr(1);
+    }
+    while (str.length > 0 && remove.indexOf(str.charAt(str.length - 1)) != -1) {
+      str = str.substr(0, str.length - 1);
+    }
+    return str;
+  }
+
+  function scroll() {
+    console.log('scroll');
+    window.scrollTo({
+      left: 0, 
+      top: window.innerHeight,
+      behavior: 'smooth'
+    });
+    sessionStorage.removeItem('forceCheckScroll');
+  }
+
+  const forceCheckScroll = sessionStorage.getItem('forceCheckScroll') === 'true';
+  const checkScroll = strip(window.location.pathname, '/') !== strip('', '/');
+
+  if (forceCheckScroll || checkScroll) {
+    const maxWidth = "(max-width: 48rem)";
+    const result = window.matchMedia(maxWidth);
+    if (result.matches) {
+      scroll();
+    } else {
+      result.addListener((match) => {
+        if (match.media == maxWidth) {
+          if (match.matches) {
+            scroll();
+          }
+        }
+      });
+    }
+  }
+</script>
+</body>
+</html>

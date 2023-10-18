@@ -1,0 +1,101 @@
+# Setup
+title: Lint Bucket
+email: ccsantos23@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Randomly finding and tinkering.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://ccsantos23.github.io/
+github_username:  ccsantos23
+#paginate: 5
+permalink: pretty
+avatar: ""
+cover_image: /assets/images/desk-things.png
+
+# Specify build folder, so we can specify that as the deploy folder on Github Pages
+# See https://stackoverflow.com/questions/58923875/is-there-an-easy-way-to-make-jekyll-output-files-to-a-docs-directory
+# And we will also tell Github Pages to skill Jekyll processing by creating a .nojekyll file
+# (see https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/).
+destination: docs/
+
+# Specify the author for blog posts
+show_footer: false
+author:
+  name: C. Santos
+  url: https://github.com/ccsantos23
+  email: ""
+
+# Gems
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-url-metadata
+#  - octopress-autoprefixer
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .eslintrc
+  - .git
+  - .jekyll-cache
+  - .markdownlint.json
+  - .stylelintrc
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - scripts/
+  - node_modules
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+autoprefixer:
+  browsers:
+    - last 2 versions
+    - edge >= 14
+
+
+# Optimize Jekyl SEO Tag
+logo: logo.png
+social:
+  name: Carmela Santos
+  links:
+    - https://github.com/ccsantos23
+    - https://codepen.io/ccsantos23
+    - https://www.linkedin.com/in/carmela-santos-6329294/
+    - https://universeodon.com/@carmelasantos
+google_site_verification: xxxxx
+lang: en
+
+
+# Options
+# Replace this value and uncomment to enable Google Analytics tracking
+# google_analytics: UA-000000-0
+
+# Replace this value and uncomment to enable Disqus
+disqus: lint-bucket
+
+# See https://github.com/gouravkhunger/jekyll-url-metadata
+# By default, the connection request to the specified domain closes after about 1 second if there is an error.
+# To override the default behavior:
+url_metadata:
+  open_timeout: 5 # timeout after 5 seconds if connection doesn't open
+  read_timeout: 3 # timeout after 3 seconds if there's no data returned
+
+# Layout Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+

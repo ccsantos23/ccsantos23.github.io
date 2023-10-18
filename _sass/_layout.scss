@@ -1,0 +1,86 @@
+// Layout
+//
+// Styles for managing the structural hierarchy of the site.
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  padding: 0;
+  margin: 0;
+}
+
+.home-header {
+  margin-top: -1em;
+  margin-bottom: var(--spacer-3);
+}
+
+.content {
+  width: 100%;
+  max-width: 80ch;
+  padding-top: var(--spacer-2);
+  padding-left: var(--spacer-2);
+  padding-right: var(--spacer-2);
+  margin-left:  auto;
+  margin-right: auto;
+  min-height: 100vh;
+
+  @media (min-width: $md-width) {
+    width: 75%;
+    padding-top: var(--spacer-3);
+    padding-left: var(--spacer-3);
+    padding-right: var(--spacer-3);
+    margin-left: 25%;
+  }
+
+  @media (min-width: $lg-width) {
+    width: 60%
+  }
+}
+
+.sidebar-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: var(--spacer);
+  background: center / cover;
+  width: 100%;
+  height: 100vh;
+
+  @media (min-width: $md-width) {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 25%;
+  }
+}
+
+
+footer {
+  margin-top: var(--spacer-3);
+  margin-bottom: var(--spacer-3);
+  font-style: italic;
+}
+
+@media (min-width: $md-width) {
+  .home-header {
+    margin-top: -2em;
+  }
+}
+
+.sidebar-right {
+  display: none;
+
+  @media (min-width: $lg-width) {
+    display: block;
+    width: 15%;
+  }
+}
+

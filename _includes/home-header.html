@@ -1,0 +1,13 @@
+<div class="home-header">
+  <div class="home-header-bar">
+    {% if site.data.archive %}
+    <ul class="home-header-menu">
+      {% for item in site.data.archive %}
+        <li>
+          <a href="{{ item.url | relative_url }}" class="{% if page.url == item.url %}current-item{% endif %}"">{{ item.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+</div>

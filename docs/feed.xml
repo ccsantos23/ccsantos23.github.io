@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-10-17T22:40:11-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lint Bucket</title><subtitle>Randomly finding and tinkering.</subtitle><author><name>C. Santos</name><email></email></author><entry><title type="html">Interested in 11ty</title><link href="http://localhost:4000/2023/10/16/interested-in-11ty/" rel="alternate" type="text/html" title="Interested in 11ty" /><published>2023-10-16T20:08:00-05:00</published><updated>2023-10-16T20:08:00-05:00</updated><id>http://localhost:4000/2023/10/16/interested-in-11ty</id><content type="html" xml:base="http://localhost:4000/2023/10/16/interested-in-11ty/"><![CDATA[<p>Got to reading about <a href="https://www.11ty.dev/">11ty/eleventy</a> and now I’m thinking
+of moving this blog from Jekyll to 11ty.</p>
+
+<div class="card-preview-link">
+  <a href="https://www.11ty.dev/">
+    
+    <img alt="thumbnail" src="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.11ty.dev%2F/opengraph/" />
+    
+    <span class="link-caption">
+      <span class="link-title">Eleventy, a simpler static site generator</span>
+      <span class="link-description">Eleventy, a simpler static site generator.</span>
+    </span>
+  </a>
+</div>
+
+<p>Some notes on getting started and converting over:</p>
+
+<ul>
+  <li><a href="https://24ways.org/2018/turn-jekyll-up-to-eleventy/">Turn Jekyll up to Eleventy</a></li>
+  <li><a href="https://www.11ty.dev/docs/starter/">Starter Projects</a></li>
+</ul>]]></content><author><name>C. Santos</name></author><category term="jekyll" /><category term="11ty" /><summary type="html"><![CDATA[Got to reading about 11ty/eleventy and now I’m thinking of moving this blog from Jekyll to 11ty.]]></summary></entry><entry><title type="html">Milanote</title><link href="http://localhost:4000/2023/10/09/milanote/" rel="alternate" type="text/html" title="Milanote" /><published>2023-10-09T15:19:00-05:00</published><updated>2023-10-09T15:19:00-05:00</updated><id>http://localhost:4000/2023/10/09/milanote</id><content type="html" xml:base="http://localhost:4000/2023/10/09/milanote/"><![CDATA[<p><a href="https://milanote.com/">Milanote</a>: tool for organizing creative projects</p>
+
+<div class="card-preview-link">
+  <a href="https://milanote.com/">
+    
+    <img alt="thumbnail" src="https://images.prismic.io/milanote/1a8246ff-245a-46e8-9aba-8cc185ad9ce7_milanote-link-image.png?auto=compress,format" />
+    
+    <span class="link-caption">
+      <span class="link-title">Milanote - the tool for organizing creative projects</span>
+      <span class="link-description">Milanote is an easy-to-use tool to organize your ideas and projects into visual boards. Add notes, images, links and files, organize them visually and share them with your team.</span>
+    </span>
+  </a>
+</div>
+
+<p>Heard about Milanote on Answer in Progress’ video: <a href="https://www.youtube.com/watch?v=87EDGpVti-g">i made every pasta shape to prove a point</a>
+(it’s the ad-read at <a href="https://youtu.be/87EDGpVti-g?si=ERR0bXAvReVBd9IZ&amp;t=287">4:47</a>).</p>]]></content><author><name>C. Santos</name></author><category term="notes tool" /><category term="youtube" /><summary type="html"><![CDATA[Milanote: tool for organizing creative projects]]></summary></entry><entry><title type="html">Level Up Tutorials</title><link href="http://localhost:4000/2023/10/09/levelup-tutorials/" rel="alternate" type="text/html" title="Level Up Tutorials" /><published>2023-10-09T14:22:00-05:00</published><updated>2023-10-09T14:22:00-05:00</updated><id>http://localhost:4000/2023/10/09/levelup-tutorials</id><content type="html" xml:base="http://localhost:4000/2023/10/09/levelup-tutorials/"><![CDATA[<p>Scott Tolinski’s <a href="https://levelup.video/">Level Up Tutorials</a> became all-free recently.</p>
+
+<div class="card-preview-link">
+  <a href="https://levelup.video/">
+    
+    <img alt="thumbnail" src="https://res.cloudinary.com/level-up-tutorials/image/upload/v1666641993/card-backgrounds/social.png" />
+    
+    <span class="link-caption">
+      <span class="link-title">Level Up Tutorials - Learn modern web development</span>
+      <span class="link-description">Learn modern web development with Level Up Tutorials. We teach you the latest web technologies, frameworks, and libraries.</span>
+    </span>
+  </a>
+</div>
+
+<p>(If I remember right, I think it was around the time he joined <a href="https://sentry.io/">Sentry</a>.)</p>]]></content><author><name>C. Santos</name></author><category term="learn" /><category term="web development" /><summary type="html"><![CDATA[Scott Tolinski’s Level Up Tutorials became all-free recently.]]></summary></entry><entry><title type="html">CSS Nesting is Here!</title><link href="http://localhost:4000/2023/10/09/css-nesting/" rel="alternate" type="text/html" title="CSS Nesting is Here!" /><published>2023-10-09T14:10:00-05:00</published><updated>2023-10-09T14:10:00-05:00</updated><id>http://localhost:4000/2023/10/09/css-nesting</id><content type="html" xml:base="http://localhost:4000/2023/10/09/css-nesting/"><![CDATA[<p>CSS Nesting support finally landed on Firefox last month.</p>
+
+<p>Heard about it on this episode of syntax.fm:
+<a href="https://syntax.fm/show/665/css-nesting-is-here">CSS Nesting is Here! — Syntax Podcast 665</a>.</p>
+
+<div class="card-preview-link">
+  <a href="https://syntax.fm/show/665/css-nesting-is-here">
+    
+    <img alt="thumbnail" src="https://syntax.fm/static/syntax-banner.png" />
+    
+    <span class="link-caption">
+      <span class="link-title">CSS Nesting is Here! — Syntax Podcast 665</span>
+      <span class="link-description">Full Stack Developers Wes Bos and Scott Tolinski dive deep into web development topics, explaining how they work and talking about their own experiences. They cover from JavaScript frameworks like React, to the latest advancements in CSS to simplifying web tooling.</span>
+    </span>
+  </a>
+</div>
+
+<p>See the reference on MDN:
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting">Using CSS nesting - CSS: Cascading Style Sheets | MDN</a>.</p>
+
+<p>I can mostly skip using SASS now (I did the styles for the <a href="https://ccsantos23.github.io/resume/index.html">resume</a>
+page with just plain CSS).  The Jekyll theme that I copied for this site
+uses SASS though (well, I guess that would be most any Jekyll site, since
+it has SASS support built-in).  Someday I might de-SASSify it.</p>]]></content><author><name>C. Santos</name></author><category term="css" /><summary type="html"><![CDATA[CSS Nesting support finally landed on Firefox last month.]]></summary></entry><entry><title type="html">CSS backdrop-filter</title><link href="http://localhost:4000/2023/10/06/css-backdrop-filter/" rel="alternate" type="text/html" title="CSS backdrop-filter" /><published>2023-10-06T00:40:00-05:00</published><updated>2023-10-06T00:40:00-05:00</updated><id>http://localhost:4000/2023/10/06/css-backdrop-filter</id><content type="html" xml:base="http://localhost:4000/2023/10/06/css-backdrop-filter/"><![CDATA[<p>The <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter">backdrop-filter</a> property
+lets you apply graphical effects to the area behind an element.</p>
+
+<div class="card-preview-link">
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter">
+    
+    <img alt="thumbnail" src="https://developer.mozilla.org/mdn-social-share.cd6c4a5a.png" />
+    
+    <span class="link-caption">
+      <span class="link-title">backdrop-filter - CSS: Cascading Style Sheets | MDN</span>
+      <span class="link-description">The backdrop-filter CSS property lets you apply graphical effects such as blurring or color shifting to the area behind an element. Because it applies to everything behind the element, to see the effect you must make the element or its background at least partially transparent.</span>
+    </span>
+  </a>
+</div>
+
+<p>I’ve probably come across this before, but forgot all about it until a recent episode of the
+<a href="https://syntax.fm/show/672/reacting-to-state-of-css-survey">syntax podcast</a>.
+They were talking about the <code class="language-plaintext highlighter-rouge">drop-shadow</code> filter, but I searched for <code class="language-plaintext highlighter-rouge">backdrop-filter</code>
+instead when I misremembered what they said.  The <code class="language-plaintext highlighter-rouge">backdrop-filter</code> is pretty cool,
+saving you from having to setup a pseudo-element positioned behind the element
+to get a filter going.</p>]]></content><author><name>C. Santos</name></author><category term="css" /><summary type="html"><![CDATA[The backdrop-filter property lets you apply graphical effects to the area behind an element.]]></summary></entry><entry><title type="html">Blog Tweaks</title><link href="http://localhost:4000/2023/10/05/blog-tweaks/" rel="alternate" type="text/html" title="Blog Tweaks" /><published>2023-10-05T03:44:00-05:00</published><updated>2023-10-05T03:44:00-05:00</updated><id>http://localhost:4000/2023/10/05/blog-tweaks</id><content type="html" xml:base="http://localhost:4000/2023/10/05/blog-tweaks/"><![CDATA[<p>Removing <code class="language-plaintext highlighter-rouge">pure.css</code> and getting sourcemapping back.</p>
+
+<p>Realized that the version of <code class="language-plaintext highlighter-rouge">jekyll</code> that the <code class="language-plaintext highlighter-rouge">github-pages</code> gem was using
+was messing up sourcemapping even before <code class="language-plaintext highlighter-rouge">autoprefixer</code>.  That and the loss
+of <code class="language-plaintext highlighter-rouge">livereload</code> made me switch out of <code class="language-plaintext highlighter-rouge">github-pages</code> and just went back to
+my original config and Gemfile that had the latest versions.</p>
+
+<p>When I looked at the HTML of the site, it had all these “pure-*” classes on
+the markup.  And realized that was <code class="language-plaintext highlighter-rouge">pure.css</code>, a CSS framework.  It reminded
+me too much of Tailwind, which I didn’t really like from first time I saw it
+(see Jeff Sandberg’s <a href="https://pdx.su/blog/2023-07-26-tailwind-and-the-death-of-craftsmanship/">Tailwind, and the death of web craftsmanship</a>
+for a lot of reasons).  Also saw <a href="https://medium.com/codex/pure-css-more-like-pure-junk-1ec2d26a1122">this article</a>
+while I was researching <code class="language-plaintext highlighter-rouge">pure.css</code> (sadly requiring a login to read the whole thing).
+So I ripped-out pure from the HTML and the SASS.  Turned out it was hardly used,
+and it was easy enough to drop in the necessary styles to take its place.</p>
+
+<p>For a while I contemplated switching to a simpler theme, like <a href="https://jekyllthemes.io/theme/contrast">contrast</a>.
+But I’d have to put in features like tags, and taxonomy index pages.</p>
+
+<p>About <code class="language-plaintext highlighter-rouge">autoprefixer</code>–that was still messing up the sourcemapping.  I decided to
+take it off the <code class="language-plaintext highlighter-rouge">jekyll</code> workflow and just use an <a href="https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-autoprefixer">autoprefixer extension for VSCode</a>,
+with the <code class="language-plaintext highlighter-rouge">formatOnSave</code> option turned on.  And did a
+save on all the *.scss files.  I just have to remember to delete the related prefixed
+lines if I needed to change something that got prefixed, so they’d get
+regenerated on save.</p>
+
+<p>Also tweaked some styles.</p>
+
+<p>My “built a jekyll website in just a few hours” isn’t accurate anymore.
+Needed a few more days to have one I’m happier with as far as rendered
+output and development environment.</p>
+
+<p>And thank goodness for <a href="https://git-scm.com/">git</a>.
+And <a href="https://gitextensions.github.io/">Git Extensions</a>.</p>]]></content><author><name>C. Santos</name></author><category term="jekyll" /><category term="autoprefixer" /><category term="css" /><category term="vscode" /><summary type="html"><![CDATA[Removing pure.css and getting sourcemapping back.]]></summary></entry><entry><title type="html">Jekyll with Autoprefixer</title><link href="http://localhost:4000/2023/10/03/jekyll-with-autoprefixer/" rel="alternate" type="text/html" title="Jekyll with Autoprefixer" /><published>2023-10-03T06:32:00-05:00</published><updated>2023-10-03T06:32:00-05:00</updated><id>http://localhost:4000/2023/10/03/jekyll-with-autoprefixer</id><content type="html" xml:base="http://localhost:4000/2023/10/03/jekyll-with-autoprefixer/"><![CDATA[<p>Getting <code class="language-plaintext highlighter-rouge">autoprefixer</code> included in the jekyll workflow.</p>
+
+<p>Finally got <code class="language-plaintext highlighter-rouge">autoprefixer</code> going for this blog’s CSS files (using <a href="https://github.com/octopress/autoprefixer">octopress-autoprefixer</a>),
+but ended up losing the <code class="language-plaintext highlighter-rouge">livereload</code> option when running <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code>
+(because it errors out), and losing meaningful sourcemapping for the SCSS files.</p>
+
+<p>An option would be to use an <a href="https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-autoprefixer">autoprefixer plugin in VSCode</a>
+and remember to do it every time I save a stylesheet.  Or also try out
+a <a href="https://marketplace.visualstudio.com/items?itemName=emeraldwalk.RunOnSave">VSCode extension that runs commands on save</a>.</p>
+
+<p>Another option is to bypass jekyll and do the other workflow tasks
+with gulp like in <a href="https://talk.jekyllrb.com/t/autoprefixer-sourcemaps-for-sass/884">this discussion</a>.
+I could probably do it with node scripts too (done it before).
+But it takes away from the whole convenience that jekyll provides.</p>
+
+<p>p.s. Also learned that I’d better use the <code class="language-plaintext highlighter-rouge">github-pages</code> gem to make sure the jekyll
+output on my local is going to work when it’s hosted on github.io.
+So I made that change.</p>]]></content><author><name>C. Santos</name></author><category term="jekyll" /><category term="sass" /><category term="autoprefixer" /><category term="vscode" /><summary type="html"><![CDATA[Getting autoprefixer included in the jekyll workflow.]]></summary></entry><entry><title type="html">Start with a Jekyll Theme Instead</title><link href="http://localhost:4000/2023/10/02/start-with-jekyll-theme/" rel="alternate" type="text/html" title="Start with a Jekyll Theme Instead" /><published>2023-10-02T07:48:00-05:00</published><updated>2023-10-02T07:48:00-05:00</updated><id>http://localhost:4000/2023/10/02/start-with-jekyll-theme</id><content type="html" xml:base="http://localhost:4000/2023/10/02/start-with-jekyll-theme/"><![CDATA[<p>After creating this blog with the default <code class="language-plaintext highlighter-rouge">minima</code> theme, I found an
+article about a simpler way to start a Jekyll blog:
+<a href="https://gaopinghuang0.github.io/2017/10/22/jekyll-theme-and-github-pages">Using Jekyll Themes and hosting on Github.io</a>.
+Essentially: start with a good theme.</p>
+
+<p>I looked around in <a href="http://jekyllthemes.org/">jekyllthemes</a>, and found one
+that I liked: <a href="https://github.com/vszhub/not-pure-poole">Not Pure Poole</a>.
+Checked the <a href="https://github.com/vszhub/not-pure-poole/blob/master/LICENSE.md">license</a>
+on it to verify that I could download and modify the code, and went ahead and did
+that. (I could have forked the repo, but I already had a repo created for this site.)
+It’s easier to customize with the actual code files themselves, instead of
+including it as a theme (with <code class="language-plaintext highlighter-rouge">gem</code>) and then adding overrides.</p>
+
+<p>Already did some tweaks.  Will be doing some more.</p>]]></content><author><name>C. Santos</name></author><category term="jekyll" /><summary type="html"><![CDATA[After creating this blog with the default minima theme, I found an article about a simpler way to start a Jekyll blog: Using Jekyll Themes and hosting on Github.io. Essentially: start with a good theme.]]></summary></entry><entry><title type="html">First Jekyll Post</title><link href="http://localhost:4000/2023/09/30/first-jekyll-post/" rel="alternate" type="text/html" title="First Jekyll Post" /><published>2023-09-30T19:55:00-05:00</published><updated>2023-10-02T04:41:00-05:00</updated><id>http://localhost:4000/2023/09/30/first-jekyll-post</id><content type="html" xml:base="http://localhost:4000/2023/09/30/first-jekyll-post/"><![CDATA[<p>Oh hey, this afternoon I made a blog with Jekyll. <strong>This</strong> blog.
+And it only took a few hours.</p>
+
+<p>Okay, this is a pretty short post. The blog right now is essentially
+the result from doing the
+<a href="https://jekyllrb.com/docs/step-by-step/01-setup/">Step by Step Tutorial</a>
+on the <a href="https://jekyllrb.com/docs/">jekyll docs page</a>.</p>
+
+<p>And then while trying to get a theme installed, I found out I shouldn’t
+have skipped the part in the Quickstart where you go:</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jekyll new myblog
+</code></pre></div></div>
+
+<p>because that would have installed the <code class="language-plaintext highlighter-rouge">minima</code> theme.  It wasn’t part of the
+tutorial.  So I did the <code class="language-plaintext highlighter-rouge">jekyll new ...</code> in a temporary folder and copied
+over what I needed for this site.  Also copied over some files from the theme’s
+folder so I could customize them.</p>
+
+<p>Aaaagh! <code class="language-plaintext highlighter-rouge">Minima</code> is using floats for the footer.  Whyyyy?!?  Must. Fix.</p>]]></content><author><name>C. Santos</name></author><category term="jekyll" /><summary type="html"><![CDATA[Oh hey, this afternoon I made a blog with Jekyll. This blog. And it only took a few hours.]]></summary></entry></feed>

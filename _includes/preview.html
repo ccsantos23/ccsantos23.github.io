@@ -1,0 +1,22 @@
+{% comment %}
+See:
+  https://github.com/gouravkhunger/jekyll-url-metadata
+  https://talk.jekyllrb.com/t/embedding-opengraph-links-in-posts/8124/6
+{% endcomment %}
+{% assign meta = include.url | metadata %}
+
+{% if meta['title'] and meta['title'] != blank %}
+<div class="card-preview-link">
+  <a href="{{ include.url }}">
+    {% if meta['og:image'] and meta['og:image'] != blank %}
+    <img alt="thumbnail" src="{{ meta['og:image'] }}" />
+    {% else %}
+    <!-- Add a fallback image here, if the opengraph image for given url does not exist -->
+    {% endif %}
+    <span class="link-caption">
+      <span class="link-title">{{ meta['title'] }}</span>
+      <span class="link-description">{{ meta['og:description'] }}</span>
+    </span>
+  </a>
+</div>
+{% endif %}
