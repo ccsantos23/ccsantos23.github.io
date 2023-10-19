@@ -12,6 +12,10 @@ html {
   font-size: 16px;
   font-family: var(--fontfamily-sans);
   line-height:1.4;
+
+  @media print {
+    font-size: 10pt;
+  }
 }
 
 body {
@@ -72,8 +76,17 @@ h3 {
 
 a, a:link, a:active, a:visited {
   color: var(--color-accent);
-  text-decoration:none;
+  -webkit-text-decoration: underline dotted 1px;
+          text-decoration: underline dotted 1px;
   font-weight: 600;
+
+  &:hover {
+    text-decoration: underline;
+  }
+  
+  @media print {
+    text-decoration: none;
+  }
 }
 
 p {
