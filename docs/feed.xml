@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-10-18T19:38:26-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lint Bucket</title><subtitle>Randomly finding and tinkering.</subtitle><author><name>C. Santos</name><email></email></author><entry><title type="html">Interested in 11ty</title><link href="http://localhost:4000/2023/10/16/interested-in-11ty/" rel="alternate" type="text/html" title="Interested in 11ty" /><published>2023-10-16T20:08:00-05:00</published><updated>2023-10-16T20:08:00-05:00</updated><id>http://localhost:4000/2023/10/16/interested-in-11ty</id><content type="html" xml:base="http://localhost:4000/2023/10/16/interested-in-11ty/"><![CDATA[<p>Got to reading about <a href="https://www.11ty.dev/">11ty/eleventy</a> and now I’m thinking
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-10-21T21:22:04-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lint Bucket</title><subtitle>Randomly finding and tinkering.</subtitle><author><name>C. Santos</name><email></email></author><entry><title type="html">Interested in 11ty</title><link href="http://localhost:4000/2023/10/16/interested-in-11ty/" rel="alternate" type="text/html" title="Interested in 11ty" /><published>2023-10-16T20:08:00-05:00</published><updated>2023-10-16T20:08:00-05:00</updated><id>http://localhost:4000/2023/10/16/interested-in-11ty</id><content type="html" xml:base="http://localhost:4000/2023/10/16/interested-in-11ty/"><![CDATA[<p>Got to reading about <a href="https://www.11ty.dev/">11ty/eleventy</a> and now I’m thinking
 of moving this blog from Jekyll to 11ty.</p>
 
 <div class="card-preview-link">
@@ -55,11 +55,11 @@ of moving this blog from Jekyll to 11ty.</p>
 <div class="card-preview-link">
   <a href="https://syntax.fm/show/665/css-nesting-is-here">
     
-    <img alt="thumbnail" src="https://syntax.fm/static/syntax-banner.png" />
+    <img alt="thumbnail" src="https://syntax.fm/og.png?show=665" />
     
     <span class="link-caption">
-      <span class="link-title">CSS Nesting is Here! — Syntax Podcast 665</span>
-      <span class="link-description">Full Stack Developers Wes Bos and Scott Tolinski dive deep into web development topics, explaining how they work and talking about their own experiences. They cover from JavaScript frameworks like React, to the latest advancements in CSS to simplifying web tooling.</span>
+      <span class="link-title">CSS Nesting is Here!</span>
+      <span class="link-description">Wes and Scott discuss the new CSS nesting syntax that is now supported across all major browsers. They cover how it works, best practices, use cases compared to Sass, browser support via transpiling, and more.</span>
     </span>
   </a>
 </div>
@@ -80,7 +80,7 @@ lets you apply graphical effects to the area behind an element.</p>
     
     <span class="link-caption">
       <span class="link-title">backdrop-filter - CSS: Cascading Style Sheets | MDN</span>
-      <span class="link-description">The backdrop-filter CSS property lets you apply graphical effects such as blurring or color shifting to the area behind an element. Because it applies to everything behind the element, to see the effect you must make the element or its background at least partially transparent.</span>
+      <span class="link-description">The backdrop-filter CSS property lets you apply graphical effects such as blurring or color shifting to the area behind an element. Because it applies to everything behind the element, to see the effect the element or its background needs to be transparent or partially transparent.</span>
     </span>
   </a>
 </div>
