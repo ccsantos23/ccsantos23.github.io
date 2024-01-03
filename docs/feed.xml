@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-10-21T21:22:04-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lint Bucket</title><subtitle>Randomly finding and tinkering.</subtitle><author><name>C. Santos</name><email></email></author><entry><title type="html">Interested in 11ty</title><link href="http://localhost:4000/2023/10/16/interested-in-11ty/" rel="alternate" type="text/html" title="Interested in 11ty" /><published>2023-10-16T20:08:00-05:00</published><updated>2023-10-16T20:08:00-05:00</updated><id>http://localhost:4000/2023/10/16/interested-in-11ty</id><content type="html" xml:base="http://localhost:4000/2023/10/16/interested-in-11ty/"><![CDATA[<p>Got to reading about <a href="https://www.11ty.dev/">11ty/eleventy</a> and now I’m thinking
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-01-02T23:34:56-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lint Bucket</title><subtitle>Randomly finding and tinkering.</subtitle><author><name>C. Santos</name><email></email></author><entry><title type="html">Interested in 11ty</title><link href="http://localhost:4000/2023/10/16/interested-in-11ty/" rel="alternate" type="text/html" title="Interested in 11ty" /><published>2023-10-16T20:08:00-05:00</published><updated>2023-10-16T20:08:00-05:00</updated><id>http://localhost:4000/2023/10/16/interested-in-11ty</id><content type="html" xml:base="http://localhost:4000/2023/10/16/interested-in-11ty/"><![CDATA[<p>Got to reading about <a href="https://www.11ty.dev/">11ty/eleventy</a> and now I’m thinking
 of moving this blog from Jekyll to 11ty.</p>
 
 <div class="card-preview-link">
   <a href="https://www.11ty.dev/">
     
-    <img alt="thumbnail" src="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.11ty.dev%2F/opengraph/" />
+    <img alt="thumbnail" src="https://v1.screenshot.11ty.dev/https%3A%2F%2Fwww.11ty.dev%2F/opengraph/_cachebust/" />
     
     <span class="link-caption">
       <span class="link-title">Eleventy, a simpler static site generator</span>
@@ -55,10 +55,10 @@ of moving this blog from Jekyll to 11ty.</p>
 <div class="card-preview-link">
   <a href="https://syntax.fm/show/665/css-nesting-is-here">
     
-    <img alt="thumbnail" src="https://syntax.fm/og.png?show=665" />
+    <!-- Add a fallback image here, if the opengraph image for given url does not exist -->
     
     <span class="link-caption">
-      <span class="link-title">CSS Nesting is Here!</span>
+      <span class="link-title">CSS Nesting is Here! - Syntax #665</span>
       <span class="link-description">Wes and Scott discuss the new CSS nesting syntax that is now supported across all major browsers. They cover how it works, best practices, use cases compared to Sass, browser support via transpiling, and more.</span>
     </span>
   </a>
